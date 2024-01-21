@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrador Login - News</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- CDN via jsDelivr -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
         <form action="">
-            <h2>Login de Administrador</h2>
+            <h2 class="d-flex justify-content-center">Login de Administrador</h2>
             <div class="row mb-3">
-                <label for="email" class="col-sm-2 col-form-label">E-mail</label>
+                <label for="email" class="d-flex justify-content-center col-sm-2 col-form-label">E-mail</label>
                 <div class="col-sm-10">
                     <input type="email" class="form-control" name="email" id="email">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="pwd" class="col-sm-2 col-form-label">Senha</label>
+                <label for="pwd" class="d-flex justify-content-center col-sm-2 col-form-label">Senha</label>
                 <div class="col-sm-10">
                     <input type="password" class="form-control" name="password" id="pwd">
                 </div>
